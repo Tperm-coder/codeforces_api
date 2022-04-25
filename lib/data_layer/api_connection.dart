@@ -8,8 +8,8 @@ import 'package:projects/data_layer/end_points.dart';
 const String baseUrl = "https://codeforces.com/api/";
 void getUserData(
   List<String> handles, {
-  String key = "",
-  String secret = "",
+   String key = "ec97f3af54076393ef2d1caf5a464dd844441695", // left intentionally 
+  String secret = "2e3912de870201acbd393b7b4fa4176daf4a6cde", // // left intentionally 
 }) async {
   String endPoint = EndPoints.user.info;
   Map<String, String> params = getRequestParams(
